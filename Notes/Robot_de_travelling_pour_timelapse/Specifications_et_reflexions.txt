@@ -45,7 +45,11 @@ Details des etapes:
 			de transmission, relié a la couronne par une courroie pour un rapport de transmission de 1.
 			Il se peut qu'il faille augmenter le nombre d'engrenages/courroie car un rapport de 0.1 semble difficile a trouver, ou pour faire avec 
 			de la recup.
-			
+			De plus le rapport entre le nombre de dents des differents engrenages du reducteur sont limités. cf Wiki : 
+			https://fr.wikipedia.org/wiki/Engrenage
+			A partir des engrenages de bases vus sur gotronic (http://www.gotronic.fr/cat-engrenages-1101.htm) 2 pignons a 16 dents et 2 couronnes 
+			a 58 dents donnerai un rapport de transmission de 0,0767 donc largement suffisant (voir meme trop peu?).
+						
 	Le servo de panoramique devrait avoir demultiplication amenant a un rapport 10° >= 1° de rotation de l'APN.
 	
 	Les roues devrait avoir un diametre de 114.6 mm pour permettre un deplacement de 1mm par 1° de rotation de la roue.
