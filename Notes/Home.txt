@@ -1,8 +1,1 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2012-05-17T12:54:36+02:00
-
-====== Home ======
-Created Thursday 17 May 2012
-
-blabalbalbalbalba
+Base de connaissances a remplir :)

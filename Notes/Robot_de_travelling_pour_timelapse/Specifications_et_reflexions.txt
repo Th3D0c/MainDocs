@@ -1,0 +1,133 @@
+I/O disponibles:
+Inputs:
+2 boutons de reglage + et - ([+] et [-])
+1 bouton de modification de la variable configurer (Distance et Durée) [CONF]
+1 bouton start [START]
+
+Output
+1 servo de deplacement [SRV_D]
+1 servo panoramique [SRV_P]
+1 LCD 2x16 [LCD]
+
+Index
+1- recuperer les entrées de l'utilisateur sur la distance et le temps de parcours ##INIT##
+2- Calculer la vitesse de rotation des roues et du panoramique ##MATH##
+3- Effectuer le parcours calculer ##RUN##
+4- Taches par etat ##TPE##
+
+Details des etapes:
+1- recuperer les entrées de l'utilisateur sur la distance et le temps de parcours ##INIT##
+	A l'allumage le bot est en attente d'ordres. L'ecran affiche un message signalant la mise sous tension puis
+	affiche la distance et la durée a 0. Un symbole sur la ligne indique laquelle peut etre modifier par les 
+	boutons + et -. 	
+	L'utilisateur peut passer d'une ligne a l'autre a l'aide d'un bouton.
+	
+	La distance est exprimée et affichée en cm.
+	La durée est exprimée et affichée en minutes.
+	
+	Lorsque l'une des variables n'est plus a 0 et que l'on modifie l'autre, le programme verifie la faisabilité
+	des ordres donnés. Il faut donc etablir assez precisement les capacités de deplacement.
+	
+	
+2- Calculer la vitesse de rotation des roues et du panoramique ##MATH##
+	Lorsque la durée (T) et la distance (D) sont connues ont peut calculer la vitesse de deplacement et surtout
+	la frequence a laquelle effectuer les rotations des servo.
+	
+	Le servo de deplacement devrait avoir une demultiplication amenant a un rapport 10° = 1mm de deplacement du bot. (/!\calculer le deplacement max avant!)
+	Cela donnerai donc :
+			r = rapport de transmission 
+			Dm = diametre de la poulie motrice
+			Dr = diametre de la poulie receptrice
+			r = Dm/Dr ou r = 1/10
+			r = 0.1
+			Il faudra monter un reducteur puis une transmission avec un rapport de 1 afin de garder la couronne sur l'essieu la plus petite possible.
+			Ainsi un engrenage sur le servo entraine une plus grande roue avec un rapport de 0.1 entre elles. Cette grande roue entraine le pignon
+			de transmission, relié a la couronne par une courroie pour un rapport de transmission de 1.
+			Il se peut qu'il faille augmenter le nombre d'engrenages/courroie car un rapport de 0.1 semble difficile a trouver, ou pour faire avec 
+			de la recup.
+			
+	Le servo de panoramique devrait avoir demultiplication amenant a un rapport 10° >= 1° de rotation de l'APN.
+	
+	Les roues devrait avoir un diametre de 114.6 mm pour permettre un deplacement de 1mm par 1° de rotation de la roue.
+	D'apres :
+			P = perimetre de la roue , 360mm 1mm/° de rotation.
+			D = diametre de la roue.
+			
+			P = pi*D ou 360 = pi*D
+			Soit D = 360/pi = 114.64968...
+	
+	Ce qui donne:
+			Exemple 4m en 3h
+			3h = 10800 sec
+			10800 sec / 4000mm = 2.7sec / 1mm
+			soit 1° / 270 millisec
+			
+			vitesse max
+			1° / 2 millisec (legerement superieure a 550Hz)
+			soit 0.02 sec / 1mm ou 
+			20sec / 1m 
+
+			
+3- Effectuer le parcours calculer ##RUN##
+	Une fois les variables du travelling entrée l'utilisateur peut lancer le programme en poussant le bouton
+	Start. Une nouvelle pression desactive le programme et repasse le bot en mode configuration.
+	
+	Le deplacement s'effectue en ordonnant au servo voulu de tourner de 1° a une frequence donnée. Cette 
+	frequence est calculé lors de la saisie des données pour pouvoir corriger l'utilisateur. Ainsi le 
+	programme a juste a effectuer les rotations de 1° de chaque servo puis attendre le temps calculé.
+	
+	Lors du deplacement un(des) message(s) d'alerte alterne avec les données du deplacement en cour.
+	Le données affichées sont: 
+			- temps restant/ecoulé en minutes
+			- distance restante/parcourue en cm
+	On peut activer/desactiver le retroeclerage du LCD a l'aide du bouton de configuration
+	
+4- Taches par etat ##TPE##
+	Mode reveille:
+		C'est l'etat avant le passage en mode config, le bot dit bonjour avec sont LCD et passe en
+		mode config. Aucun bouton n'est utilisable.
+		
+	Mode configuration:		
+		Par defaut le focus est sur la distance.
+				
+		Detecter les pressions sur [+], [-], [CONF] ou [START]
+		[+]: incrementer d'une unité la variable ayant le focus
+		[-]: decrementer d'une unité la variable ayant le focus
+		[CONF]: Change la variable ayant le focus (distance ou durée)
+		[START]: Lance l'execution du programme avec les valeurs actuelles
+		
+		[+] et [-] ont des "cooldowns" courts pour pouvoir facilement etre maintenue et ainsi avancer rapidement.
+		En revenche [CONF] a un "cooldown" d'au moins 1 sec et [START] d'au moins 3 sec.
+		
+		Calculer la frequence de deplacement avec les données actuelles.
+		
+		Afficher les données actuelles avec le curseur de focus et/ou le curseur d'erreur si les données sont 
+		irrealistes (eg: 1000m en 1 min).
+		
+		
+	Mode Execution:	
+		Detecter les pressions sur [CONF] ou [START]	
+		[CONF]: Active/Stop le retroeclairage.
+		[START]: Stop l'execution du programme.
+		
+		Mettre a jour la distance a parcourir et le temps restant.
+		
+		Effectuer si besoin les mouvements des servo.
+		
+		Alterner si besoin l'affichage et afficher soit un message signalant le fonctionnement
+		soit les données du parcours.
+		
+		
+	Exemples d'affichage du LCD 16x2:
+		+-------------------------------+
+		|D|(|c|m|)| | | | | | | | | |0|-| exemple de curseur de focus (-)
+		|T|(|m|i|n|)| | | | | | | | |0||| exemple de curseur d'erreur (|)
+		+-------------------------------+
+		reglages de base
+		
+		+-------------------------------+
+		|D|(|c|m|)| | |9|9|9|9|9|9|9|9| | soit 999 999.99 m (1 000km)
+		|T|(|m|i|n|)| |9|9|9|9|9|h|9|9|+| soit 99999h99min (ORLY?!), exemple de curseur de focus ET erreur
+		+-------------------------------+
+		valeurs maximum affichablent clairement (totalement overkill)
+		
