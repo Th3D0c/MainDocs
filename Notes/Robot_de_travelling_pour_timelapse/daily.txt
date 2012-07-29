@@ -1,0 +1,25 @@
+29/07/2012
+Permier WE sur le bot, je commence par faire des croquis et des resumés de ce que je veux. Je me 
+renseigne sur les differents problemes qui m'attendent. Premierement l'affichage, a la place de 
+l'affichage 7 segments que je pensais utiliser je vais me diriger plutot sur un LCD compatible 
+Hitachi HD44780. Le arduino propose des drivers pour l'utiliser et cela sera bien plus facile a
+gerer. 
+Je realise un premier schema de tout ca avec Fritzing histoire de voir ce que cela donnerait.
+
+Ensuite le deplacement, afin de pouvoir me deplacer assez lentement j'aimerai un rapport de 
+transmission de l'ordre de 0.1 entre le moteur et les roues. Si je trouve les roues de 120mm que 
+je cherche cela me donnera plus de 10° au moteur pour 1mm au sol. Il me faut donc me pencher un 
+peu sur les reducteurs et regarder ce qui se trouve facilement sur le net en pieces detaché. 
+Le choix est finalement fait pour 2 pignons de 18 dents dont le premier et fixé au servomoteur, 
+l'autre servant a la reduction, et 2 engrenages de 58 dents. En cas de besoin je peux ainsi
+facilement ajouter un "etage" d'engrenage pour reduire plus encore le facteur de transmission.
+Je realise rapidement un model sketchup afin de m'assuerer que mon idée est faissable et pas 
+trop encombrante.
+Enfin pour la transmission a l'essieu avant les pignons de 18 dents messurant 5mm de diametre
+il me suffira d'en utiliser 2 avec une courroie afin d'assurer la moticité. Je ne sais pas 
+encore en quoi je pourrais faire une courroie mais on trouvera bien!
+
+J'avais d'abord decidé d'ajouter un second servo pour faire des panoramiques avec le meme bot,
+mais vu le nombre d'inconnus dans se projet je vais commencer simple et laisser cela pour les
+amelioration du bot une fois une version finit atteinte.
+

@@ -1,0 +1,68 @@
+Constantes
+	timer = millis depuis l'activation
+	
+	step_size = distance au sol pour 1 pas du moteur en mm. Ici 1° sur le servo
+	motor_max_steps = nombre de "crans" par tour du moteur. Ici 360°.
+	motor_max_hz = intervale mini enter les pas du moteur en millisec. ici 2 millisec
+	
+	PIN_CONST = assignation des pins du arduino 
+	
+	
+variables
+	Array boutons_states de la forme [PIN_CONST][timer a l'activation]
+	
+	travel_length = distance a parcourir en mm(default:0)
+	travel_time = temps voulu pour le traget en millisec(default:0)
+	travel_step_count = nombre de step pour finir le parcours (default:0). /!\ Actualisé 
+	step_frequency = frequence calculer pour les steps du moteur en millisec
+
+	
+verifier les boutons	
+	Verifier si un bouton est pressé
+		Si c'est le bouton [CONF] changer la variable active et lever le flag de changement de mode
+		pour l'affichage.
+		Si c'est le bouton [+] incrémenter la variable de une unité noter le timer pour ce bouton 
+		pour calculer le temps minimum entre les pressions.
+		Si c'est le bouton [-] incrémenter la variable de une unité noter le timer pour ce bouton 
+		pour calculer le temps minimum entre les pressions.
+		Si c'est le bouton [START] inverser le flag de mode configuration/execution noter le timer 
+		pour ce bouton pour calculer le temps minimum entre les pressions et le passage en mode 
+		execution.
+	Sinon 
+		Verifier pour chaque bouton si le temps minimum est ecoulé entre les pressions ou qu'il 
+		vaut 0 
+			si c'est le cas mettre sa valeur a 0
+	
+	
+Calculer le voyage
+	travel_length/step_size = travel_step_count
+	travel_step_count/travel_time = step_frequency
+	
+	Verifier si step_frequencey < motor_max_hz 
+		Le voyage est impossible verifier la derniere variable modifier et calculer pour l'autre la 
+		valeur possible la plus proche. Lever le flag voyage impossible et stocker les valeurs corrigées,
+		passer aussi en mode configuration sans lever le flag de changement de mode si on est en mode
+		execution.
+
+	
+Gerer l'affichage sur le LCD
+	Verifier si on a un flag voyage impossible
+		Le voyage n'est pas faisable afficher une erreur et modifier la valeur de la variable non 
+		modifié pour la valeur corrigée. Repasser ensuite en mode configuration.
+	Verifier si on a unflag changement de mode
+		Afficher un message de changement de mode, puis afficher l'ecran du mode de configuration 
+		par defaut.
+	Sinon		
+	
+		Verifier si on est en mode configuration
+			Si c'est le cas afficher les deux variables et leurs valeur. Afficher le curseur sur la
+			ligne de la variable ayant le focus.
+		Sinon on est en mode execution
+			Verifier si le timer pour la rotation des messages est fini
+				Si c'est le cas changer d'ecran pour un message d'alerte dans la liste ou pour l'ecran
+				de resumé de l'etat.
+			Sinon 
+				Continuer a afficher le meme ecran.
+			
+	
+	

@@ -50,9 +50,7 @@ Details des etapes:
 			A partir des engrenages de bases vus sur gotronic (http://www.gotronic.fr/cat-engrenages-1101.htm) 2 pignons a 18 dents et 2 couronnes 
 			a 58 dents donnerai un rapport de transmission de 0,0963 donc largement suffisant.
 			Voir le model sketchup du reducteur pour une idée.
-						
-	Le servo de panoramique devrait avoir demultiplication amenant a un rapport 10° >= 1° de rotation de l'APN.
-	
+		
 	Les roues devrait avoir un diametre de 114.6 mm pour permettre un deplacement de 1mm par 1° de rotation de la roue.
 	D'apres :
 			P = perimetre de la roue , 360mm 1mm/° de rotation.
@@ -71,7 +69,9 @@ Details des etapes:
 			1° / 2 millisec (legerement superieure a 550Hz)
 			soit 0.02 sec / 1mm ou 
 			20sec / 1m 
-
+				
+	Le servo de panoramique devrait avoir demultiplication amenant a un rapport 10° >= 1° de rotation de l'APN.
+				
 			
 3- Effectuer le parcours calculer ##RUN##
 	Une fois les variables du travelling entrée l'utilisateur peut lancer le programme en poussant le bouton
