@@ -4,24 +4,25 @@ objectifs;
 - créer un lieu de partage ou les informations circulent.
 - Favoriser la transmission de savoir entre les membres.
 - Reunir des compettences differentes dans un meme espace pour permettre a des projets pluri-disciplinaire de voir le jour
-- Créer une dynamique de groupe poussant les membres a avancer dans leurs projet et a attaquer de nouveau lorsque le precedent et fini.
+- Créer une dynamique de groupe poussant les membres a avancer dans leurs projet et a attaquer de nouveau lorsque le precedent est fini.
 - Mutualiser les besoins et les solutions de prototypage, informatique, electro, mecha, arts etc... pour partager a la fois les couts et les avantages.
 - Permettre un renouveau de ces activités completement delaissé dans la region marseillaise.
 
 
 Activités Envisagées:
 - "Permanence" pour l'acces aux locaux pour les membres (definir la frequence, >= 1/semaine)
-- Atelier regulier d'apprentissage ouvert a tous
+- Ateliers d'apprentissage ouvert a tous
 - Integration dans un grand spectre grace a aux mouvements nationaux et internationaux des hackerspaces.
-- Activités liées aux membres et a leurs projets (coupe robotique, expo, festival/convention, etc)
+- Activités liées aux membres et a leurs projets (coupe robotique, expo, festival/convention, etc) ou un objectif commun afin de reunir
+	tous les membres sur un seul projet.
 - Trouver des moyens d'action afin d'integrer le hackerspace dans la ville/dept/region
 
 
 Besoins :
-- Local avec : Eau courant, electicité, téléphone (pour internet); acces pas trop long depuis marseille centre.
+- Local avec : Eau courante, electicité, téléphone (pour internet); acces pas trop long depuis marseille centre.
 - Fournitures classiques: Des tables et des chaisses, materiel de propreté, quelques etageres pour ranger le matos, frigo
 - Fournitures  techniques: Un serveur dédié a l'asso (pas forcement physique), un reseau local, un NAS pour les données de travail, 
-	du materiel de soudure et d'eelectronique, un PC public
+	du materiel de soudure et d'electronique, un PC public
 
 
 
