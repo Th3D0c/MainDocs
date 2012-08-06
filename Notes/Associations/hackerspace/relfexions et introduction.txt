@@ -33,6 +33,13 @@ Sources de revenus:
 	par exemple des Arduino premontés sur PCB/Breadboard si c'est competitif.
 
 
+Sources de revenus:
+- Cotisations des membres, avec systeme de participation volontaire. Dans un premier temps un budget sera realiser pour subvenir aux 
+	besoins vitaux du club. La cotisation minimum sera donc placer autour de ce montant. Le reste des cotisations sera a discretion des membres. Si
+	on atteind un stade ou les membres sont assez nombreux le systeme passera sur une cotisation volontaire et auto determiné.
+- Vente de produit finit. Les projets des membres ou commun au hackerspace pourrait faire l'objet de vente dont les fonds serviraient a financer l'asso
+
+
 
 Axes de developpements principaux :
 - Robotique
