@@ -132,7 +132,7 @@ Details des etapes:
 		
 		+-------------------------------+
 		|D|(|c|m|)| | |9|9|9|9|9|9|9|9| | soit 999 999.99 m (1 000km)
-		|T|(|m|i|n|)| |9|9|9|9|9|h|9|9|+| soit 99999h99min (ORLY?!), exemple de curseur de focus ET erreur
+		|T|(|m|i|n|)| |9|9|9|9|9|9|9|9|+| soit un peu plus de 190 ans(!!!), exemple de curseur de focus ET erreur
 		+-------------------------------+
 		valeurs maximum affichablent clairement (totalement overkill)
 		

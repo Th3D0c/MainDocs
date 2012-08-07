@@ -23,3 +23,13 @@ J'avais d'abord decidé d'ajouter un second servo pour faire des panoramiques av
 mais vu le nombre d'inconnus dans se projet je vais commencer simple et laisser cela pour les
 amelioration du bot une fois une version finit atteinte.
 
+4-5/08/2012
+Ce week end c'est recherche de pieces pour faire un prototype, bilan une voiture RC pour enfant
+avec d'enormes roues parfaites pour ce que je veux faire, quelques Legos mais le butin est maigre,
+un stock de construx, une boite de mecano et un paquet de picures d'araignées :)
+Une fois la voiture demonté elle livre en plus quelques engrenages, je garde la commande RC et les 
+moteur pour autre chose. Les roues n'ont pas de jente mais un systeme a base hexagonale (je crois) 
+dans lequel l'essieux se glisse et qui lui meme et glissé dans la "jente". Bizarre... Faudra pas les 
+casser ou en faire des copies.
+Il me manque encore quelques outils pour pouvoir travailler a mon aise, ainsi qu'un espace pour 
+travailler tranquilement, la prochaine etape est donc toute trouvée! :)
