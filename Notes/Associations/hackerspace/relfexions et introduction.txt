@@ -1,5 +1,15 @@
+Sommaire 
+Idees en Vracs..............................~##IEV##~
+Que? Pourquoi? Comment? Qui? et ou ?........~##QPCQO##~
+Droits et devoirs des membres...............~##DDM##~
 
 
+
+
+
+=============================================================================================================================================================================
+
+Idees en Vracs  ~##IEV##~
 objectifs;
 - créer un lieu de partage ou les informations circulent.
 - Favoriser la transmission de savoir entre les membres.
@@ -41,6 +51,7 @@ Axes de developpements principaux :
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
+Que? Pourquoi? Comment? Qui? et ou ? ~##QPCQO##~
 un hackerspace
 
 Qu'est ce que c'est? 
@@ -64,6 +75,64 @@ En revenche l'acces au hackerspace est autoriser a toute personne desirant mener
 en aucun cas obligatoire, elle permet de soustenir le hackerspace et de prendre par aux decisions de l'association.
 
 Ou?
+Le mieux serait une local icolé ou dans une zone industrielle. Le bruit ne serait alors pas un probleme et les loyers y seront bien moindre. Mais dans un premier 
+temps tout lieu fera l'affaire.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Droits et devoirs des membres ~##DDM##~
+Membres :
+- Droit d'utiliser le materiel et les machines du hackerspace. Les consommables seront remplacés par le pot commun. En cas de grosse ponction ponctuelles
+	il convient de le prevoir afin de ne pas epuiser les stocks pour les autres membres.
+- Droit a une clef des locaux.
+- Droit a un "locker" avec une clef pour y entreposer des affaires personnelles, ils seront de petites tailles car il sont pas a fin de stockage.
+- Droit a une voix dans le processus de prise de decision du hackerspace. Ainsi que le droit de demander la tenue d'une reunion sur un theme precis.
+
+- Devoir d'entretien du hackerspace, pas de passe droit, pas d'exception.
+- Devoir d'aide et de respect, comme l'a tres bien resumé Noisebrigde: "Be excellent to eachothers Dudes!" les membres on ainsi un devoir d'entreaide les uns 
+	envers les autres mais aussi envers toutes les personnes constituants le hackerspace pour leurs projets. Le partage de connaissances est au coeur meme
+	de l'existence de cette espace.
+- Devoir de participation financiere, sous la forme d'une cotisation memsuelle.
+- Devoir de participation aux taches administratives du hackerspace, cela peut prendre la forme de postes dans l'association et des responsabilités qui 
+	l'accompagne, la maintenance de soft (serveurs, contenus online, etc) ou de machines, ou toute tache similaire dont le fruit profitera a tous.
+- Devoir de reponsabilité, une clef des locaux ainsi que l'acces au materiel et aux machines offre un grand pouvoir, il en decoule donc de grands 
+	reponsabilités... Les ressources du hackerspace devront etre utilisés judicieusement afin de ne pas detruire betement du materiel, a plus forte raison
+	si cela implique des machines/produits dangereux. Il n'y a pas de honte a demander de l'aide. Idem pour la clé des locaux, il faudra y faire attention
+	et ne pas oublier qu'il est INTERDIT de loger dans le hackerspace.
+
+
+President :
+- Il a les memes droits qu'un membre.
+- Il a le droit de regard et de controle sur les differents aspects de l'association ainsi qu'aux projets, cela pour eviter toute "boite noire" dans le 
+	hackerspace. Il sera en quelques sorte la "bonne conscience" du hackerspace.
+
+- Il a les memes devoirs qu'un membre, bien entendu sa participation a l'association est la place de president, il doit donc organiser la gestion de la vie 
+	quotidienne du hackerspace et des projets.
+- Il organisera et arbitrera les debats lors des reunions. Ou pourra proposer quelqu'un d'autre pour le faire, il sera simplement le choix par defaut.
+- Devoir de representation, dans le cas ou un seul interlocuteur devra etre choisi et qu'il n'est pas possible de choisir un porte parole grace au systeme de 
+	decision normale le president aura le devoir de representer le hackerspace et de lui servir de porte parole
+- Il a le devoir de s'assurer que le hackerspace fonctionne bien pour tout le monde et que les regles et l'esprit du hackerspace sont bien respectées. 
+- Responsabilités associatives, le president d'une associations possede certaines responsabilités specifiques a cette forme juridique. A verifier et noter.
+
+
+Tresorié :
+- Il a les memes droits qu'un membre.
+- Droit de veto financier, il peut imposer son veto pour une transaction si cela mets en perile la vie du hackerspace.
+- Droit d'acces aux comptes de l'association, il peut payer en utilisant les comptes de l'association.
+
+- Il a les memes devoir qu'un membre, sa contribution est donc d'office de s'occuper des comptes et des budgets de l'association. Ainsi que la gestion des 
+	transactions faites avec les comptes de l'association.
+	
+	
+Non membres :
+- Droit d'utiliser le materiel et les machines du hackerspace. Les consommables seront remplacés par le pot commun. En cas de grosse ponction particuliere
+	il convient de le prevoir afin de ne pas epuiser les stocks pour les autres membres.
+
+- Devoir d'entretien du hackerspace, pas de passe droit, pas d'exception.
+- Devoir d'aide et de respect, comme l'a tres bien resumé Noisebrigde: "Be excellent to eachothers Dudes!" les membres on ainsi un devoir d'entreaide les uns 
+	envers les autres mais aussi envers toutes les personnes constituants le hackerspace pour leurs projets. Le partage de connaissances est au coeur meme
+	de l'existence de cette espace.
+
+Pour tous:	
+- Devoir de fun, il est interdit de ne pas prendre du plaisir a ses projets et activités! ;)	
 
 
