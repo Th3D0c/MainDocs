@@ -32,13 +32,14 @@ Besoins :
 - Local avec : Eau courante, electicité, téléphone (pour internet); acces pas trop long depuis marseille centre; salle de bain et cuisine.
 - Fournitures classiques: Des tables et des chaisses, materiel de propreté, quelques etageres pour ranger le matos, frigo, vaiselle de base
 - Fournitures  techniques: Un serveur dédié a l'asso (pas forcement physique), un reseau local, un NAS pour les données de travail(peut etre dans le serveur si celui ci
-	est suffisant), du materiel de soudure et d'electronique, un PC public
+	est suffisant), du materiel de soudure et d'electronique, un PC public, une imprimante publique
 
 
 Sources de revenus:
 - Cotisations des membres, avec systeme de participation volontaire. Dans un premier temps un budget sera realiser pour subvenir aux 
 	besoins vitaux du club. La cotisation minimum sera donc placer autour de ce montant. Le reste des cotisations sera a discretion des membres. Si
 	on atteind un stade ou les membres sont assez nombreux le systeme passera sur une cotisation volontaire et auto determiné.
+- Vente sur place de boissons et de snacks.
 - Vente de produit finit. Les projets des membres ou commun au hackerspace pourrait faire l'objet de vente dont les fonds serviraient a financer l'asso
 	par exemple des Arduino premontés sur PCB/Breadboard si c'est competitif.
 
@@ -79,25 +80,41 @@ temps tout lieu fera l'affaire.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Droits et devoirs des membres ~##DDM##~
-Membres :
-- Droit d'utiliser le materiel et les machines du hackerspace. Les consommables seront remplacés par le pot commun. En cas de grosse ponction ponctuelles
+
+	
+Non membres :
+- Droit d'utiliser le materiel et les machines du hackerspace. Les consommables seront remplacés par le pot commun. En cas de grosse ponction particuliere
 	il convient de le prevoir afin de ne pas epuiser les stocks pour les autres membres.
+
+- Devoir d'entretien du hackerspace, pas de passe droit, pas d'exception.
+- Devoir d'aide et de respect, comme l'a tres bien resumé Noisebrigde: "Be excellent to eachothers Dudes!" les membres on ainsi un devoir d'entreaide les uns 
+	envers les autres mais aussi envers toutes les personnes constituants le hackerspace pour leurs projets. Le partage de connaissances est au coeur meme
+	de l'existence de cette espace.
+
+Membres actif :
+- Il a les memes droit qu'un non membre
 - Droit a une clef des locaux.
-- Droit a un "locker" avec une clef pour y entreposer des affaires personnelles, ils seront de petites tailles car il sont pas a fin de stockage.
+- Droit a un "locker" avec une clef pour y entreposer des affaires personnelles, ils seront de petites tailles car il sont pas a fin de stockage. Si la place le permet
+	pour tous les membres.
 - Droit a une voix dans le processus de prise de decision du hackerspace. Ainsi que le droit de demander la tenue d'une reunion sur un theme precis.
 
 - Devoir d'entretien du hackerspace, pas de passe droit, pas d'exception.
 - Devoir d'aide et de respect, comme l'a tres bien resumé Noisebrigde: "Be excellent to eachothers Dudes!" les membres on ainsi un devoir d'entreaide les uns 
 	envers les autres mais aussi envers toutes les personnes constituants le hackerspace pour leurs projets. Le partage de connaissances est au coeur meme
 	de l'existence de cette espace.
-- Devoir de participation financiere, sous la forme d'une cotisation memsuelle.
+- Devoir de participation financiere, sous la forme d'une cotisation memsuelle dont le montant et le crenaux de paiement seront definit par les membres. En
+	cas de non paiement le membre sera suspendu jusqu'a ce qu'il s'en soit aquité.
 - Devoir de participation aux taches administratives du hackerspace, cela peut prendre la forme de postes dans l'association et des responsabilités qui 
 	l'accompagne, la maintenance de soft (serveurs, contenus online, etc) ou de machines, ou toute tache similaire dont le fruit profitera a tous.
 - Devoir de reponsabilité, une clef des locaux ainsi que l'acces au materiel et aux machines offre un grand pouvoir, il en decoule donc de grands 
-	reponsabilités... Les ressources du hackerspace devront etre utilisés judicieusement afin de ne pas detruire betement du materiel, a plus forte raison
+	reponsabilités... Les ressources du hackerspace devront etre utilisés judicieusement afin de ne pas se blesser ou detruire betement du materiel, a plus forte raison
 	si cela implique des machines/produits dangereux. Il n'y a pas de honte a demander de l'aide. Idem pour la clé des locaux, il faudra y faire attention
 	et ne pas oublier qu'il est INTERDIT de loger dans le hackerspace.
 
+Membres suspendu :
+- Il a les memes droit qu'un non membre
+
+- Il a les memes devoirs qu'un membre
 
 President :
 - Il a les memes droits qu'un membre.
@@ -122,22 +139,17 @@ Tresorié :
 - Il a les memes devoir qu'un membre, sa contribution est donc d'office de s'occuper des comptes et des budgets de l'association. Ainsi que la gestion des 
 	transactions faites avec les comptes de l'association.
 	
-	
-Non membres :
-- Droit d'utiliser le materiel et les machines du hackerspace. Les consommables seront remplacés par le pot commun. En cas de grosse ponction particuliere
-	il convient de le prevoir afin de ne pas epuiser les stocks pour les autres membres.
-
-- Devoir d'entretien du hackerspace, pas de passe droit, pas d'exception.
-- Devoir d'aide et de respect, comme l'a tres bien resumé Noisebrigde: "Be excellent to eachothers Dudes!" les membres on ainsi un devoir d'entreaide les uns 
-	envers les autres mais aussi envers toutes les personnes constituants le hackerspace pour leurs projets. Le partage de connaissances est au coeur meme
-	de l'existence de cette espace.
-
 Pour tous:	
 - Devoir de fun, il est interdit de ne pas prendre du plaisir a ses projets et activités! ;)	
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Processus de prise de decision ~##PPD##~
+
+Afin de garantir l'independence du systeme de decision il ne pourra y avoir aucun acces physique ou virtuel qui ne serai controlé ou detenu par un seul membre.
+Cela n'est pas en rapport avec l'acces libre au hackerspace ou a ses outils qui reste un principe fondateur, mais bien a l'aspect du controle de ces acces et 
+de leur permissions. Ainsi il ne pourra pas y avoir qu'une seul personne disponsant des droits root sur un serveur ou gardant les cléfs d'un rangement/machine/etc 
+apartenant au hackerspace.
 
 Lors des reunions les decisions sont prises par consensus des membres actifs
 
