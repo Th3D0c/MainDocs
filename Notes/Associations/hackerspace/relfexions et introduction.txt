@@ -1,6 +1,8 @@
 Sommaire 
 Idees en Vracs..............................~##IEV##~
+Taches a accomplir ~##TAA##~
 Droits et devoirs des membres...............~##DDM##~
+Devenir membre et en perdre le status ~##DMPS##~
 Processus de prise de decision..............~##PPD##~
 
 
@@ -10,53 +12,12 @@ Processus de prise de decision..............~##PPD##~
 =============================================================================================================================================================================
 
 Idees en Vracs  ~##IEV##~
-objectifs;
-- créer un lieu de partage ou les informations circulent.
-- Favoriser la transmission de savoir entre les membres.
-- Reunir des compettences differentes dans un meme espace pour permettre a des projets pluri-disciplinaire de voir le jour
-- Créer une dynamique de groupe poussant les membres a avancer dans leurs projet et a attaquer de nouveau lorsque le precedent est fini.
-- Mutualiser les besoins et les solutions de prototypage, informatique, electro, mecha, arts etc... pour partager a la fois les couts et les avantages.
-- Permettre un renouveau de ces activités completement delaissé dans la region marseillaise.
-
-
-Activités Envisagées:
-- "Permanence" pour l'acces aux locaux pour les membres (definir la frequence, >= 1/semaine)
-- Ateliers d'apprentissage ouvert a tous
-- Integration dans un grand spectre grace a aux mouvements nationaux et internationaux des hackerspaces.
-- Activité COMMUNE liée aux membres et a leurs projets (coupe robotique, expo, festival/convention, etc) ou un projet commun afin de reunir
-	tous les membres sur un seul projet. Dans un premier temps l'amelioration du lieu de reunion pourrait faire l'affaire.
-- Trouver des moyens d'action afin d'integrer le hackerspace dans la ville/dept/region.
-
-
-Besoins :
-- Local avec : Eau courante, electicité, téléphone (pour internet); acces pas trop long depuis marseille centre; salle de bain et cuisine.
-- Fournitures classiques: Des tables et des chaisses, materiel de propreté, quelques etageres pour ranger le matos, frigo, vaiselle de base
-- Fournitures  techniques: Un serveur dédié a l'asso (pas forcement physique), un reseau local, un NAS pour les données de travail(peut etre dans le serveur si celui ci
-	est suffisant), du materiel de soudure et d'electronique, un PC public, une imprimante publique
-
-
-Sources de revenus:
-- Cotisations des membres, avec systeme de participation volontaire. Dans un premier temps un budget sera realiser pour subvenir aux 
-	besoins vitaux du club. La cotisation minimum sera donc placer autour de ce montant. Le reste des cotisations sera a discretion des membres. Si
-	on atteind un stade ou les membres sont assez nombreux le systeme passera sur une cotisation volontaire et auto determiné.
-- Vente sur place de boissons et de snacks.
-- Vente de produit finit. Les projets des membres ou commun au hackerspace pourrait faire l'objet de vente dont les fonds serviraient a financer l'asso
-	par exemple des Arduino premontés sur PCB/Breadboard si c'est competitif.
-
-	
-Axes de developpements principaux :
-- Robotique
-- Domotique
-- mode de vie alternatifs et l'application des NT a cela
-- R&D et veille informatique
-
-
-
-un hackerspace
+Un hackerspace
 
 Qu'est ce que c'est? 
 C'est un lieu physique permetant aux gens de se rencontrer et collaborer, autour de centres d'interets communs. La fonction premiere en est le plus souvent
-le partage et la transmission de ressources et savoirs. Les hackerspace sont en cela une sorte de laboratoire ouvert a tous incitant a la recherche et l'exploration.
+le partage et la transmission de ressources et savoirs. Les hackerspace sont en cela une sorte de laboratoire ouvert a tous incitant a la recherche et l'exploration de
+n'importe quel discipline. 
 
 Pourquoi?
 Car il n'existe pas d'endroit comme celui ci a Marseille et dans sa region. Il n'existe plus de club d'electronique, d'informatique ou de robotique, ces disciplines
@@ -78,9 +39,82 @@ Ou?
 Le mieux serait une local icolé ou dans une zone industrielle. Le bruit ne serait alors pas un probleme et les loyers y seront bien moindre. Mais dans un premier 
 temps tout lieu fera l'affaire.
 
+------
+
+objectifs:
+- Créer un lieu de partage ou les informations circulent entre les membres. Cela sous la forme de projets en commun, d'ateliers, ou tout autres formes
+	pertinente pour enseigner un savoir.
+- Favoriser la transmission de savoir entre les membres qui pourront a leur tour transmettre ce savoir. 
+- Reunir des compettences differentes dans un meme espace pour permettre a des projets pluri-disciplinaire de voir le jour. Des projets de plus grande
+	"envergure" peuvent voir le jour.
+- Créer une dynamique de groupe poussant les membres a avancer dans leurs projet et a attaquer de nouveau lorsque le precedent est fini.
+- Mutualiser les besoins et les solutions de prototypage, informatique, electro, mecha, arts etc... pour partager a la fois les couts et les avantages.
+	Cela permet d'avoir acces a des moyens difficilement concevable en tant que particulier.
+- Permettre un renouveau de ces activités completement delaissé dans la region marseillaise. Essayer d'integrer le hackerspace dans la ville en proposant
+	des ateliers et des cours publique, comme toujours, mais surtout annoncé plus largement. 
+
+
+Activités Envisagées:
+- "Permanence" fixe pour l'acces aux locaux pour les non-membres (definir la frequence, >= 1/semaine). Afin d'offrir un repere a ceux qui ne sont pas membre
+	mais aussi de faire une reunion hebdomadaire du hackerspace entre membres.
+- Activité COMMUNE liée aux membres et a leurs projets (coupe robotique, expo, festival/convention, etc) ou un projet commun afin de reunir	tous les membres sur un 
+	seul projet. Dans un premier temps l'amelioration du lieu de reunion pourrait faire l'affaire. Cela me semble important pour la cohesion du groupe.
+- Ateliers d'apprentissage ouvert a tous, si possible regulierement. Il serait bien que la responsabilité alterne entre les membres si personnes ne propose 
+	quelquechose.
+- Integration dans un grand spectre grace a aux mouvements nationaux et internationaux des hackerspaces. Dans le meilleur des cas cela consistera dans une capacité 
+	a accueillir ponctuellement des membres d'autres hackerspaces et a nous y depalacer. Mais pour commencer ils faut suivre les projets actuellement en cours par la
+	communauté et tenter d'y apporter notre pierre.
+- Le gros du temps sera sans doute consacré aux projets personnels des membres, et c'est bien le but aussi :)
+
+
+Besoins :
+- Local avec : Eau courante, electicité, téléphone (pour internet); acces pas trop long depuis marseille centre; salle de bain et cuisine.
+- Fournitures classiques: Des tables et des chaisses, materiel de propreté, quelques etageres pour ranger le matos, frigo, vaisselle de base, plusieurs poubelles 
+	differenciables, 
+- Fournitures techniques: Un serveur dédié a l'asso (site web, wiki, repos, ...) , un reseau local, un NAS pour les données de travail et de backup, du materiel de 
+	soudure et d'electronique, un PC public, une imprimante publique
+- Fournitures de coolness : aka de quoi en faire un endroit agreable donc ce que l'on pourra trouver/recuperer entre autres: diffusion de musique, tv, fauteilles, canapés
+	lampes, deco, led psyché, robots qui volent, hologrammes intelligeeeeeeents niiiiiiiiiiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarrrrrrrrrrrrrrrrrg! >_<
+
+
+Sources de revenus:
+- Cotisations des membres, avec systeme de participation volontaire. Dans un premier temps un budget sera realiser pour subvenir aux 
+	besoins vitaux du club. La cotisation minimum sera donc placer autour de ce montant. Le reste des cotisations sera a discretion des membres. Si
+	on atteind un stade ou les membres sont assez nombreux le systeme passera sur une cotisation volontaire et auto determiné.
+- Vente sur place de boissons et de snacks.
+- Vente de produit finit. Les projets des membres ou commun au hackerspace pourrait faire l'objet de vente dont les fonds serviraient a financer l'asso
+	par exemple des Arduino premontés sur PCB/Breadboard si c'est competitif.
+
+	
+Axes de developpements principaux :
+- Robotique
+- Domotique
+- mode de vie alternatifs et l'application des NT a cela
+- R&D et veille informatique
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Taches a accomplir ~##TAA##~
+
+- Trouver des gens pour fonder le hackerspace
+- Discuter pour definir le but et la phylosophie du hackerspace
+- Monter l'asso
+- Trouver des locaux
+- Amenager les locaux
+- Faire de la pub et recruter du monde
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Droits et devoirs des membres ~##DDM##~
 
+Le but est de developper une forme non hierarchique de gestion de differentes personnes faisant partie de la vie du hackerspace. Pour les prises de decisions un 
+systeme de consensus sera preferer il ne faut donc pas avoir un hierarchie forte dans les postes. Neanmoins les formes juridiques associatives francaises ont un
+certain nombre de postes obligatoires ayant des responsabilités legales. Il faudra donc pouvoir a minima ces postes, puis n'en ajouter que le strict necessaire
+a un bon fonctionnement.
+Quelques points importants a garder en tete :
+- Libre acces au hackerspace
+- Egalité lors de prise de decision
+- Egalité dans la repartition des corvées
 	
 Non membres :
 - Droit d'utiliser le materiel et les machines du hackerspace. Les consommables seront remplacés par le pot commun. En cas de grosse ponction particuliere
@@ -92,7 +126,7 @@ Non membres :
 	de l'existence de cette espace.
 
 Membres actif :
-- Il a les memes droit qu'un non membre
+- Il a les memes droits qu'un non membre
 - Droit a une clef des locaux.
 - Droit a un "locker" avec une clef pour y entreposer des affaires personnelles, ils seront de petites tailles car il sont pas a fin de stockage. Si la place le permet
 	pour tous les membres.
@@ -104,7 +138,7 @@ Membres actif :
 	de l'existence de cette espace.
 - Devoir de participation financiere, sous la forme d'une cotisation memsuelle dont le montant et le crenaux de paiement seront definit par les membres. En
 	cas de non paiement le membre sera suspendu jusqu'a ce qu'il s'en soit aquité.
-- Devoir de participation aux taches administratives du hackerspace, cela peut prendre la forme de postes dans l'association et des responsabilités qui 
+- Devoir de participation aux taches administratives et a la vie du hackerspace, cela peut prendre la forme de postes dans l'association et des responsabilités qui 
 	l'accompagne, la maintenance de soft (serveurs, contenus online, etc) ou de machines, ou toute tache similaire dont le fruit profitera a tous.
 - Devoir de reponsabilité, une clef des locaux ainsi que l'acces au materiel et aux machines offre un grand pouvoir, il en decoule donc de grands 
 	reponsabilités... Les ressources du hackerspace devront etre utilisés judicieusement afin de ne pas se blesser ou detruire betement du materiel, a plus forte raison
@@ -112,7 +146,7 @@ Membres actif :
 	et ne pas oublier qu'il est INTERDIT de loger dans le hackerspace.
 
 Membres suspendu :
-- Il a les memes droit qu'un non membre
+- Il a les memes droits qu'un non membre
 
 - Il a les memes devoirs qu'un membre
 
@@ -123,16 +157,18 @@ President :
 
 - Il a les memes devoirs qu'un membre, bien entendu sa participation a l'association est la place de president, il doit donc organiser la gestion de la vie 
 	quotidienne du hackerspace et des projets.
-- Il organisera et arbitrera les debats lors des reunions. Ou pourra proposer quelqu'un d'autre pour le faire, il sera simplement le choix par defaut.
+- Il organisera et arbitrera les debats lors des reunions ou pourra proposer quelqu'un d'autre pour le faire, il sera simplement le choix par defaut.
 - Devoir de representation, dans le cas ou un seul interlocuteur devra etre choisi et qu'il n'est pas possible de choisir un porte parole grace au systeme de 
 	decision normale le president aura le devoir de representer le hackerspace et de lui servir de porte parole
-- Il a le devoir de s'assurer que le hackerspace fonctionne bien pour tout le monde et que les regles et l'esprit du hackerspace sont bien respectées. 
+- Il a le devoir de s'assurer que le hackerspace fonctionne bien pour tout le monde et que les regles et l'esprit du hackerspace sont bien respectées. Cela va de paire
+	avec son droit de regard.
 - Responsabilités associatives, le president d'une associations possede certaines responsabilités specifiques a cette forme juridique. A verifier et noter.
 
 
 Tresorié :
 - Il a les memes droits qu'un membre.
-- Droit de veto financier, il peut imposer son veto pour une transaction si cela mets en perile la vie du hackerspace.
+- Droit de veto financier, il peut imposer son veto pour une transaction si cela mets en perile la vie du hackerspace. Ce choix devra etre expliqué et debattu
+	au plus tot.
 - Droit d'acces aux comptes de l'association, il peut payer en utilisant les comptes de l'association et indemniser les membres pour des frais avancés par
 	ces derniers et ayant été prealablement approuvés.
 
@@ -143,6 +179,22 @@ Pour tous:
 - Devoir de fun, il est interdit de ne pas prendre du plaisir a ses projets et activités! ;)	
 
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Devenir membre et en perdre le status ~##DMPS##~
+
+Toute personne pourra faire une demande d'adhesion aupres du hackerspace par le bié de n'importe quel membre actif, mail ou autres moyens. Sa candidature sera 
+debattu lors de la prochaine reunion hebdomadaire le permettant selon le processus de decision normal. Si elle est acceptée le status du membre est modifier. 
+Dans le cas d'un refus la decision doit etre expliqué et comprise par la personne ayant postulé.
+
+Le status de membre peut etre suspendu ou perdu:
+De façon volontaire a n'importe quel moment par le membre sur demande ecrite.
+Il sera suspendu si le membre ne s'acquitte pas de l'un de ses devoirs ou si ses actions vont a l'encontre du hackerspace ou de ses valeurs. Si un membre ne 
+s'acquite pas de sa cotisation son status de membre est suspendu immediatement et automatiquement apres la fin de la periode definit et ne sera retabli 
+qu'apres regularisation. Dans le cas d'un manquement ou d'une action grave a l'encontre du hackerspace il faudra avant tout essayer de resoudre la situation. 
+
+L'exclusion d'un membre ne pourra etre decider que par l'enssemble des membres a l'aide du processus de decision habituel lors d'une reunion.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Processus de prise de decision ~##PPD##~
 
@@ -151,10 +203,11 @@ Cela n'est pas en rapport avec l'acces libre au hackerspace ou a ses outils qui 
 de leur permissions. Ainsi il ne pourra pas y avoir qu'une seul personne disponsant des droits root sur un serveur ou gardant les cléfs d'un rangement/machine/etc 
 apartenant au hackerspace.
 
-Lors des reunions les decisions sont prises par consensus des membres actifs
-
-
-
+Lors des reunions les decisions sont prises par consensus des membres actifs, si il n'est pas possible d'en trouver un on aura recours au vote mais cela doit rester un
+dernier recoure. Il existe diverse methode afin de faciliter la prise de decision par concensus il faudra donc en user si besoin. 
+Si un membre actif est absent a une reunion il pourra deleguer sa voix a une personne mais cela uniquement pour les questions figurants a l'ordre du jour de la reunion.
+Si un systeme credible de teleconference est assurer par le hackerspace alors le vote par téléconference sera evisageable ponctuellement si cela est necessaire.
+Un compte rendu de la reunion sera redigé et diffusé a l'ensemble des membres actifs du hackerspace.
 
 
 

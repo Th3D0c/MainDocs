@@ -1,0 +1,15 @@
+Idées d'ateliers:
+
+Ateliers ouverts:
+	Informatique: 
+		- Les bases de l'environnement linux
+		- Decouverte de la programmation avec des langages simples		
+
+	Electronique:
+		- Atelier de decouverte avec montage simple a realiser
+		- Initiation Arduino 
+	
+	Science generale:
+		- Atelier sur la force de friction avec des annuaires ;)
+		
+
