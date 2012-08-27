@@ -18,16 +18,22 @@ Qu'est ce que c'est?
 C'est un lieu physique permetant aux gens de se rencontrer et collaborer, autour de centres d'interets communs. La fonction premiere en est le plus souvent
 le partage et la transmission de ressources et savoirs. Les hackerspace sont en cela une sorte de laboratoire ouvert a tous incitant a la recherche et l'exploration de
 n'importe quel discipline. 
+Ils doivent bien etre distingué de leurs bienfaiteurs et ne doivent pas tendre a un but commercial. En cela ils ne sont pas des pepinieres ou des aides a la creation
+d'entreprises ou d'autres structures lucratives.
 
 Pourquoi?
 Car il n'existe pas d'endroit comme celui ci a Marseille et dans sa region. Il n'existe plus de club d'electronique, d'informatique ou de robotique, ces disciplines
 sont aujourd'hui au centre de notre environement de tous les jours. L'experimentation et la realisation etant facilité lorsque l'on peut mettre en commun les 
 ressources et les connaissances.
+Car l'obsolecence programmé des objets de notre quotidien est unilateralement controlé et peut etre contourné. Le simple fait de reparer un objet cassé est devenu
+peu commun et cela passe par l'apprentissage et l'exploration.
 
 Comment?
-En proposant un lieu ou se reunir et travailler sur des projets. Autogerer par la communauté des  membres regulier. Une approche non exclusive permettant 
+En proposant un lieu ou se reunir et travailler sur des projets. Autogeré par la communauté des  membres regulier. Une approche non exclusive permettant 
 aux "non-membre" de participer et de s'integrer a leur rythme. Les besoins de l'association seront couverts par les cotisations et d'eventuels realisation 
 de l'association. L'achat d'equipements et de "materiaux" sera decider de façon collective par la communauté.
+Le hackerspace pourra aussi fournir certains services a ses membres contre une participation, par exemple des miniserveur de dev mutualisés, des repos VCS,
+du backup, etc.
 
 Qui?
 Tout le monde pourra devenir membre sur concensus des membres actifs, les membres actifs devront s'aquiter d'une cotisation  mensuelle qui sera volontaire mais 
@@ -56,7 +62,7 @@ objectifs:
 
 Activités Envisagées:
 - "Permanence" fixe pour l'acces aux locaux pour les non-membres (definir la frequence, >= 1/semaine). Afin d'offrir un repere a ceux qui ne sont pas membre
-	mais aussi de faire une reunion hebdomadaire du hackerspace entre membres.
+	mais aussi et surtout a faire une reunion hebdomadaire du hackerspace entre membres.
 - Activité COMMUNE liée aux membres et a leurs projets (coupe robotique, expo, festival/convention, etc) ou un projet commun afin de reunir	tous les membres sur un 
 	seul projet. Dans un premier temps l'amelioration du lieu de reunion pourrait faire l'affaire. Cela me semble important pour la cohesion du groupe.
 - Ateliers d'apprentissage ouvert a tous, si possible regulierement. Il serait bien que la responsabilité alterne entre les membres si personnes ne propose 
@@ -84,6 +90,7 @@ Sources de revenus:
 - Vente sur place de boissons et de snacks.
 - Vente de produit finit. Les projets des membres ou commun au hackerspace pourrait faire l'objet de vente dont les fonds serviraient a financer l'asso
 	par exemple des Arduino premontés sur PCB/Breadboard si c'est competitif.
+- Services proposés aux membres, par exemple espace de dev web, repos VCS, etc
 
 	
 Axes de developpements principaux :
@@ -140,7 +147,7 @@ Membres actif :
 	cas de non paiement le membre sera suspendu jusqu'a ce qu'il s'en soit aquité.
 - Devoir de participation aux taches administratives et a la vie du hackerspace, cela peut prendre la forme de postes dans l'association et des responsabilités qui 
 	l'accompagne, la maintenance de soft (serveurs, contenus online, etc) ou de machines, ou toute tache similaire dont le fruit profitera a tous.
-- Devoir de reponsabilité, une clef des locaux ainsi que l'acces au materiel et aux machines offre un grand pouvoir, il en decoule donc de grands 
+- Devoir de reponsabilité, une clef des locaux ainsi que l'acces au materiel et aux machines offre un grand pouvoir, il en decoule donc de grandes 
 	reponsabilités... Les ressources du hackerspace devront etre utilisés judicieusement afin de ne pas se blesser ou detruire betement du materiel, a plus forte raison
 	si cela implique des machines/produits dangereux. Il n'y a pas de honte a demander de l'aide. Idem pour la clé des locaux, il faudra y faire attention
 	et ne pas oublier qu'il est INTERDIT de loger dans le hackerspace.
