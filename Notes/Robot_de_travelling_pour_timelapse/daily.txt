@@ -33,3 +33,12 @@ dans lequel l'essieux se glisse et qui lui meme et glissé dans la "jente". Biza
 casser ou en faire des copies.
 Il me manque encore quelques outils pour pouvoir travailler a mon aise, ainsi qu'un espace pour 
 travailler tranquilement, la prochaine etape est donc toute trouvée! :)
+
+
+24-25/08/2012
+Teste grandeur nature du systeme de reduction moteur, on est a peut pres a 1/10, cela devrait donc faire 
+l'affaire. Dans le pire des cas je pourrais toujours ajouter encore une serie engrenages pour tomber sous
+les 1/10.
+Le positionnement des engrenages sur les axes risque par contre d'etre problematique, il faudra faire un
+test avec le prototype mais il pourra etre necessaire d'utiliser des entretoises, de souder des rondelles 
+ou de mettre des goupilles pour empecher les engrenages de glisser sur l'axe et de sortir de l'alignement.
